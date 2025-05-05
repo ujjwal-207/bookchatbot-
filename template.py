@@ -6,13 +6,13 @@ logging.basicConfig(level=logging.INFO,format='[%(asctime)s}:%(message)s]')
 
 list_of_files = [
     "src/__init__.py",
-    "src/__helper__.py",
+    "src/helper.py",
     "src/prompt.py",
     "setup.py",
     "research/trial.py",
     "app.py",
     "store_index.py",
-    "static",
+    "static/ujjwal.py",
     "templates/chat.html"
 ]
 for filepath in list_of_files:
